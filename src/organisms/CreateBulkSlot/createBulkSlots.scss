@@ -26,11 +26,13 @@
 
 .form-wrapper {
     display: flex; 
-    justify-content: space-between;
+    gap: 5%;
+    padding-left: 40px;
 }
 .button-wrapper{
     display: flex;
-    margin-top: 117px
+    margin-top: 117px;
+    margin-bottom: 60px;
 }
 .time-footer-wrapper{
     display: flex;

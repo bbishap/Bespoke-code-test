@@ -1,10 +1,10 @@
 .tabs {
-  margin-top: 48px;
+  padding-top: 48px;
+  background-color: #fafbfd;
   &_header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #d4d4d4;
-    background-color: #fafbfd;
   }
   &_item {
     padding: 36px 65px 24px 46px;
@@ -24,7 +24,7 @@
     margin-bottom: -1px;
   }
   &_body {
-    margin-top: 96px;
-    padding: 0 16px;
+    padding: 96px 16px;
+    background-color: #ffffff;
   }
 }
