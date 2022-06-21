@@ -1,0 +1,42 @@
+.navigation,
+.footer {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    padding: 0 35px;
+    padding-bottom: 30px;
+    color: #09477d;
+    position: relative;
+    a {
+      text-decoration: none;
+      color: #09477d;
+    }
+    a.active {
+      color: #00ccff;
+    }
+    span,
+    a {
+      margin-left: 10px;
+    }
+  }
+}
+
+ul.submenu {
+  height: 0;
+  transition: height 300ms;
+  overflow: hidden;
+  li a {
+    margin-left: 24px;
+  }
+}
+
+ul.submenu.show {
+  height: 108px;
+  transition: height 300ms;
+}

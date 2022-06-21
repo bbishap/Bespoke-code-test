@@ -1,0 +1,44 @@
+.calendarCell {
+    padding: 5px; 
+    width: 30px; 
+    text-align: center;
+    height: 30px;
+}
+
+.weekDays {
+    color: #2684FF;
+}
+
+.normalDate {
+    border-radius: 50%;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    cursor: pointer;
+}
+
+.currentDate {
+    background-color: #23CFFD;
+    border-radius: 50%;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tableWrapper {
+    border: 1px solid #000;
+     width: fit-content;
+      padding: 5px
+}

@@ -1,0 +1,30 @@
+.tabs {
+  margin-top: 48px;
+  &_header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #fafbfd;
+  }
+  &_item {
+    padding: 36px 65px 24px 46px;
+    color: #2684ff;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 16px;
+    cursor: pointer;
+  }
+  &_item.active {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-bottom: 1px solid #fff;
+    color: #2a2a2a;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-bottom: -1px;
+  }
+  &_body {
+    margin-top: 96px;
+    padding: 0 16px;
+  }
+}

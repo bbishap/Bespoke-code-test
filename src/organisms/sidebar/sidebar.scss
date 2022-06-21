@@ -1,0 +1,23 @@
+.sidebar {
+  width: 305px;
+  background-color: #f3f9fe;
+  min-height: 100vh;
+
+  &_header {
+    padding: 30px 46px 0;
+    border-bottom: 1px solid #e5e5e5;
+    height: 90px;
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 45px 0;
+    height: calc(100% - 95px);
+  }
+}
+
+.logo {
+  width: 150px;
+}

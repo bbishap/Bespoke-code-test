@@ -1,0 +1,37 @@
+.cancel-button {
+    margin-right: 18px;
+}
+
+.header {
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+}
+
+.sub-header {
+    display: block;
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-top: 7px;
+    margin-bottom: 21px;
+}
+
+.time-footer {
+    max-width: 135px;
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-right: 13px;
+    margin-top: 10px
+}
+
+.form-wrapper {
+    display: flex; 
+    justify-content: space-between;
+}
+.button-wrapper{
+    display: flex;
+    margin-top: 117px
+}
+.time-footer-wrapper{
+    display: flex;
+}
